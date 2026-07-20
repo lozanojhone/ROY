@@ -1,0 +1,22 @@
+ROY ENTERPRISE 2.1 - CORRECCION DE GUARDADO
+
+Se corrigio el conflicto que impedia registrar productos: una capa visual deshabilitaba el boton antes de invocar el guardado real.
+
+ROY ENTERPRISE 2.0
+
+ARCHIVOS PRINCIPALES
+- index.html: tienda y aplicación principal.
+- admin.html: acceso directo al panel.
+- firestore.rules: reglas que debes publicar en Firestore.
+- firebase.json: configuración para Firebase Hosting.
+- firestore.indexes.json: índices de Firestore.
+- css/: estilos.
+- js/: funcionamiento del sistema.
+- assets/: logo y recursos.
+- docs/INSTALACION.md: instrucciones.
+
+PUBLICACIÓN
+Sube la carpeta completa. No subas únicamente index.html.
+
+PLAN GRATUITO
+La versión usa Firestore para datos e imágenes comprimidas y no depende de Firebase Storage.
