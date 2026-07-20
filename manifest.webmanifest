@@ -1,0 +1,10 @@
+{
+  "name": "ROY Tienda",
+  "short_name": "ROY",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#a8ff00",
+  "lang": "es-PE",
+  "description": "Tienda virtual ROY"
+}
