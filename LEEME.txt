@@ -1,0 +1,14 @@
+ROY ENTERPRISE 3.3 FINAL
+
+1. Sube todos los archivos y carpetas sin cambiar sus nombres.
+2. Publica firestore.rules si aún no está publicado.
+3. En el navegador realiza Ctrl + F5 para borrar la versión anterior.
+4. En celular, cierra la pestaña y vuelve a abrir la tienda.
+
+MEJORAS FINALES
+- Selectores visibles con fondo blanco y texto negro.
+- Opciones desplegadas legibles.
+- Forma de entrega corregida.
+- Pagos con imagen o QR y selector visible.
+- Todos los pedidos finalizan por WhatsApp.
+- Datos del cliente, entrega, pago y productos incluidos en el mensaje.
