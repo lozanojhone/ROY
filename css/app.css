@@ -299,9 +299,16 @@
 
 /* V24: evita mostrar marcas antiguas durante el primer instante */
 .logo-mark,.logo-word{transition:opacity .12s ease}.roy-brand-loading .logo-mark,.roy-brand-loading .logo-word{opacity:0}
-.roy-fast-loader{position:fixed;inset:0;z-index:99999;background:#080808;display:grid;place-items:center;transition:opacity .18s ease,visibility .18s ease}
+.roy-fast-loader{position:fixed;inset:0;z-index:99999;background:#080808;display:grid;place-items:center;transition:opacity .22s ease,visibility .22s ease}
 .roy-fast-loader.hide{opacity:0;visibility:hidden;pointer-events:none}
-.roy-fast-loader div{text-align:center}.roy-fast-loader strong{font-family:'Barlow Condensed';font-size:42px;letter-spacing:3px}.roy-fast-loader span{display:block;color:#D4AF37;font-size:11px;margin-top:8px}
+.roy-fast-loader-content{width:min(360px,78vw);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center}
+.roy-fast-loader-logo{display:block;width:min(330px,74vw);height:auto;max-height:150px;object-fit:contain;animation:royFastLogoIn .45s ease both;filter:drop-shadow(0 0 12px rgba(212,175,55,.16))}
+.roy-fast-loader-line{position:relative;width:min(230px,58vw);height:2px;overflow:hidden;border-radius:999px;background:rgba(255,255,255,.10)}
+.roy-fast-loader-line span{position:absolute;inset:0 auto 0 0;width:42%;margin:0;background:linear-gradient(90deg,transparent,#B8860B,#F5D76E,transparent);animation:royFastLoaderLine 1.05s ease-in-out infinite}
+.roy-fast-loader-text{display:block;margin:0;color:#D4AF37;font-size:11px;font-weight:800;letter-spacing:.14em}
+@keyframes royFastLogoIn{from{opacity:0;transform:translateY(6px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes royFastLoaderLine{from{transform:translateX(-120%)}to{transform:translateX(340%)}}
+@media(max-width:600px){.roy-fast-loader-content{width:min(280px,82vw);gap:14px}.roy-fast-loader-logo{width:min(250px,72vw)}.roy-fast-loader-text{font-size:10px}}
 
 /* V25: los colores se muestran unicamente dentro de Ver opciones */
 .product-card .available-colors,
