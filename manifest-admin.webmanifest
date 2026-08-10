@@ -1,0 +1,41 @@
+{
+  "name": "ROY Admin",
+  "short_name": "ROY Admin",
+  "start_url": "./index.html?admin=1&source=pwa-admin",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#D4AF37",
+  "description": "Panel administrativo privado de ROY",
+  "icons": [
+    {
+      "src": "assets/icons/roy-app-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/roy-app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/roy-app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "./roy-admin",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "lang": "es-PE",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
